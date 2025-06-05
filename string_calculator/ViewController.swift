@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         guard let input = inputTextField.text else { return }
         let sum = StringCalculator.add(input)
         resultLabel.text = "Result = \(sum)"
-        resultLabel.textColor = .red
     }
     
     @IBAction func clear(_ sender: UIButton) {
